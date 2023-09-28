@@ -1,2 +1,2 @@
 # stock-app-front-end
-A financial web applicat
+A financial web 
