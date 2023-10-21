@@ -1,9 +1,9 @@
 import React, { useCallback, useEffect } from 'react'
-import { changeMarket } from '../../redux/actions/categoryActions';
+import { changeMarket } from '../../redux/actions/marketActions';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Badge, ListGroup, ListGroupItem } from 'reactstrap';
-import { getMarkets } from './../../redux/actions/categoryActions';
+import { getMarkets } from '../../redux/actions/marketActions';
 
 const MarketList = (
 	{
